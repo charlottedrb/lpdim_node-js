@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_grocery",
+  "version": "1.0.0",
+  "description": "Grocery list to train NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlottedrb/lpdim_node-js.git"
+  },
+  "author": "CDB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlottedrb/lpdim_node-js/issues"
+  },
+  "homepage": "https://github.com/charlottedrb/lpdim_node-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
