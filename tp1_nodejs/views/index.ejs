@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <ul>
+    <% for(let stuff of list) { %>
+        <li><%= stuff.name %></li>
+    <% } %>
+    </ul>
+
+    <form action="/add" method="post">
+        <p>
+            <label>What ?</label>
+            <input type="text" name="name">
+        </p>
+        <p>
+            <label>How many ?</label>
+            <input type="number" name="quantity">
+        </p>
+        <p>
+            <label></label>
+            <input type="submit" name="submit">
+        </p>
+    </form>
+    
+</body>
+</html>
